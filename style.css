@@ -7,3 +7,12 @@
   box-sizing: border-box;
   font-family: "Miranda Sans", sans-serif;
 }
+
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dad3f8;
+}
