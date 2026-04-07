@@ -80,7 +80,7 @@ body {
 #blog:checked ~ .list .blog,
 #help:checked ~ .list .help,
 #code:checked ~ .list .code,
-#about:checked ~ .list .about{
+#about:checked ~ .list .about {
   color: #fff;
 }
 #home:checked ~ .list .indicator {
@@ -104,10 +104,10 @@ body {
   display: none;
 }
 
-.container .content .text{
+.container .content .text {
   display: none;
 }
-.container .content .home{
+.container .content .home {
   display: block;
 }
 
@@ -118,24 +118,23 @@ body {
 #about:checked ~ .text-content .about {
   display: block;
 }
-#blog:checked ~ .text-content .blog,
-#help:checked ~ .text-content .help,
-#code:checked ~ .text-content .code,
-#about:checked ~ .text-content .about {
+#blog:checked ~ .text-content .home,
+#help:checked ~ .text-content .home,
+#code:checked ~ .text-content .home,
+#about:checked ~ .text-content .home {
   display: none;
 }
-
 
 .container .content .text-content {
   width: 80%;
   height: 100%;
   /* background: tomato; */
 }
-.content .text-content .title{
+.content .text-content .title {
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 15px;
 }
-.content .text-content p{
+.content .text-content p {
   text-align: justify;
 }
